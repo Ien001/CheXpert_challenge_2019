@@ -1,8 +1,4 @@
 # encoding: utf-8
-
-"""
-The main CheXNet model implementation.
-"""
 import sys
 import os
 import numpy as np
