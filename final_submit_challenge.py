@@ -82,12 +82,12 @@ def main(argv):
     cudnn.benchmark = True
 
     print('loading models & data')
-    resumes = ['densenet121_chexpert_ft_img_size_224_epoch_13_auc_0.8748_ori_d121.pkl',\
-            'densenet169_chexpert_ft_gray_scale_img_size_224_epoch_7_auc_0.8812.pkl',\
-            'inceptionresnetv2_chexpert_ft_gray_scale_img_size_299_epoch_16_auc_0.8772.pkl',\
-            'inceptionresnetv2_chexpert_ft_img_size_299_epoch_17_auc_0.8699.pkl',\
-            'resnet50_chexpert_ft_img_size_224_epoch_0_auc_0.8195.pkl',\
-            'xception_chexpert_ft_gray_scale_img_size_299_epoch_6_auc_0.8585.pkl']
+    resumes = ['model_1.pkl',\
+            'model_2.pkl',\
+            'model_3.pkl',\
+            'model_4.pkl',\
+            'model_5.pkl',\
+            'model_6.pkl']
 
     weights = [0.2,0.9,0.7,0.4,0.4,0.3]
 
